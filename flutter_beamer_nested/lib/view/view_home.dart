@@ -64,8 +64,8 @@ class _ViewHomeState extends State<ViewHome> {
                   child: Beamer(
                     key: _beamerKey,
                     routerDelegate: BeamerDelegate(
-                      initialPath: '/women/maya',
-                      notFoundRedirectNamed: '/women/maya',
+                      initialPath: '/men/bagas',
+                      notFoundRedirectNamed: '/men/bagas',
                       transitionDelegate: const NoAnimationTransitionDelegate(),
                       locationBuilder: BeamerLocationBuilder(
                           beamLocations: [BeamerLocationChild(gender: 'Men')]),
